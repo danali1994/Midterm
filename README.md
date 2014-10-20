@@ -1,12 +1,10 @@
 Midterm
 =======
 
-Text Adventure
+Change of plans!
 
-Using random numbers, prompts and css elements to create a interactive text based adventure story game. 
+I will be making an interactive kaleidoscope. 
 
-The player will be prompted to choose between two given variables and depending on which they choose, the story will change accordingly.
+Here is a rough version of it: http://thedanali.com/kaleidoscope.html
 
-I will be using ramdom numbers as variables for damage dealt and damage recieved when player is faced against monsters.
-
-Also, there will be a max health and once damage recieved exceeds that number, player dies and loses the game. 
+I want to eventually be able to allow anyone to upload an image and apply an effect to it. 
