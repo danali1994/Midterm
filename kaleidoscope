@@ -42,6 +42,23 @@
   .hexagon >.triangle:nth-child(5) {transform:rotate3d(0,0,1,-210deg);}
   .hexagon >.triangle:nth-child(6) {transform:rotate3d(0,0,1,-270deg);}
 
+  .triangleStyle {
+  	position:absolute;
+  	left:0;
+  	top:0;
+  	width:585px;
+  	height:638px;
+  	
+  }
+
+  .pictureOne {
+  	background: url(1.jpg);
+  }
+
+  .pictureTwo {
+  	background: url(2.jpg);
+  }
+
 
   .kalideo {display:block; width:800px;/* 6*(400.cos(60º)) */ height:692.8203230275509px; position:relative; overflow:hidden;}
   .hexagon {position:absolute; left:0; top:0;}
@@ -64,37 +81,56 @@
   <script src="prefixfree.min.js"></script>
 </head>
 <body>
-	<div class="kalideo">
+	<div id="trid" class="kalideo">
 		<div class="hexagon">
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
 		</div>
 		<div class="hexagon">
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
 		</div>
 		<div class="hexagon">
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
-			<div class="triangle"><div class="in"><div class="in"><div style="position:absolute;left:0;top:0;width:585px;height:638px;background:url(1.jpg);"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
+			<div class="triangle"><div class="in"><div class="in"><div class="triangleStyle pictureOne"></div></div></div></div>
 		</div>
-
 	</div>
 	<script src="jquery.js"></script>
 	<script>
 	(function () {
+		var tridClass = document.getElementsByClassName("triangleStyle");
+
 		$kalideo = $('.kalideo');
+
+		$kalideo.click (function (e) {
+			if(tridClass[0].classList.contains("pictureOne"))
+			{
+				for (var i = 0; i < tridClass.length; i++) {
+					tridClass[i].classList.add("pictureTwo");
+					tridClass[i].classList.remove("pictureOne");
+    			}
+			}
+			else
+			{
+				for (var i = 0; i < tridClass.length; i++) {
+					tridClass[i].classList.add("pictureOne");
+					tridClass[i].classList.remove("pictureTwo");
+    			}
+			}
+		});
+
 	    var W = $kalideo.width();
 	    var H = $kalideo.height();
 	    var L = $kalideo.offset().left;
@@ -102,7 +138,8 @@
 
 	    var imageW = 585;
 	    var imageH = 638;
-	    $kalideo.click(function (e) {
+
+	    $kalideo.mouseover	(function (e) {
 	    	var xmin = 200; /* 400 / 2 */
 	    	var xmax = imageW - xmin;
 
@@ -114,7 +151,7 @@
 	    	setValue(x, y);
 	    });
 
-	    var $divs = $('.triangle >.in >.in >div');
+	    var $divs = $('.triangle >.in >.in>div');
 	    function setValue(x, y) {
 	    	$divs.css('transform', 'translate3d(' + -x + 'px,' + -y + 'px,0)');
 	    }
